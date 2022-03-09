@@ -13,7 +13,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,6 +25,7 @@
 
 .App-link {
   color: #61dafb;
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
 
 @keyframes App-logo-spin {
@@ -34,4 +35,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1, p {
+  color: black;
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
