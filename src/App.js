@@ -1,5 +1,4 @@
 import surelymagazine from './surelymagazine.png';
-import background from './surely_gradient.tif';
 import './App.css';
 
 function App() {
