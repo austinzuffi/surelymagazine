@@ -1,22 +1,31 @@
-import logo from './logo.svg';
+import surelymagazine from './surelymagazine.png';
+import background from './surely_gradient.tif';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={surelymagazine} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+	  Website coming soon..
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.instagram.com/surely_magazine/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          instagram
         </a>
+	<a
+          className="App-link"
+	  href="https://www.dropbox.com/s/m8fx4t0l5hac4xa/Paolo%20%40BGC.WAV"
+          target="_blank"
+          rel="noopener noreferrer"
+	>
+	  listen
+	</a>
       </header>
     </div>
   );
